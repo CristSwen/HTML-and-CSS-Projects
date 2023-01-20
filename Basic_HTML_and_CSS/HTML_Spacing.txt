@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<section>
+			<p> Once upon a time,<br>
+			there lived a young girl named Shrei.<br>
+			Diylinn got bullied, because of the spelling of her name.<br>
+			Turns out her <span style-"color:blue;font-weight:bold">parents</span> were from Utah.<br>
+			No one in Utah knows how to spell.<br>
+			The end.</p>
+		</section>
+		<section>
+			<p> &nbsp;Really. People need to learn how to name their kids.%copy</p>
+		</section>
+	</body>
