@@ -1,7 +1,42 @@
-
-img src="./Images/Thumnails/Set8.png" {
-	background: url(Set8.png);
-	background-repeat: no-repeat;
-	background-size: 100% 25%;
+.container {
+	postition: relative;
+	text-align: center;
+	color: black;
 }
-	
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-shadow: 2px 2px white;
+	font-weight: bold;
+	font-size: 55px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	background-color: palevioletred;
+	border: 10px double;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: palevioletred;
+}
+
+li {
+	float: left;
+	border-right: 1px solid white;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 100px;
+	text-decoration;
+]
+
+li a:hover {
+	background-color: #111;
+}
