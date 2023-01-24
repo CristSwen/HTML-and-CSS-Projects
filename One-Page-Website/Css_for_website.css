@@ -22,6 +22,10 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: palevioletred;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
 }
 
 li {
@@ -34,9 +38,236 @@ li a {
 	color: white;
 	text-align: center;
 	padding: 20px 100px;
-	text-decoration;
-]
+	text-decoration: none;
+}
 
-li a:hover {
-	background-color: #111;
+li a:hover:not(.active) {
+	background-color: #04AA6D;
+}
+
+.active {
+	background-color: #04AA6D;
+}
+
+body {
+	background-color: palevioletred;
+}
+
+
+
+
+
+
+
+
+
+.image {
+	opacity: 1;
+	display: block;
+	width: 360px;
+	height: 360px;
+	margin: 0px 10px 30px 20px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 8px;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/*This is for ashe*/
+.photo-container1 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container1:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container1:hover .middle {
+	opacity: 1;
+}
+
+.text {
+	background-color: #04AA6D;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+
+
+/*This is for blitz*/
+.photo-container2 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container2:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container2:hover .middle {
+	opacity: 1;
+}
+
+/*This is for Galio*/
+.photo-container3 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container3:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container3:hover .middle {
+	opacity: 1;
+}
+
+/*This is for Gangplank*/
+.photo-container4 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container4:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container4:hover .middle {
+	opacity: 1;
+}
+
+/*This is for Kayle*/
+.photo-container5 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container5:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container5:hover .middle {
+	opacity: 1;
+}
+
+/*This is for Lulu*/
+.photo-container6 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container6:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container6:hover .middle {
+	opacity: 1;
+}
+
+/*This is for Lux*/
+.photo-container7 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container7:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container7:hover .middle {
+	opacity: 1;
+}
+/*This is for nasus*/
+.photo-container8 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container8:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container8:hover .middle {
+	opacity: 1;
+}
+
+/*This is for poppy*/
+.photo-container9 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container9:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container9:hover .middle {
+	opacity: 1;
+}
+
+/*This is for Renekton*/
+.photo-container10 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container10:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container10:hover .middle {
+	opacity: 1;
+}
+
+/*This is for sylas*/
+.photo-container11 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container11:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container11:hover .middle {
+	opacity: 1;
+}
+
+/*This is for talon*/
+.photo-container12 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container12:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container12:hover .middle {
+	opacity: 1;
+}
+
+/*This is for wukong*/
+.photo-container13 {
+	position: relative;
+	width: 20%;
+}
+
+.photo-container13:hover .image {
+	opacity: 0.3;
+}
+
+.photo-container13:hover .middle {
+	opacity: 1;
 }
