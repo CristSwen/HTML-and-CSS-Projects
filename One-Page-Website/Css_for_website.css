@@ -1,5 +1,5 @@
 .container {
-	postition: relative;
+	position: relative;
 	text-align: center;
 	color: black;
 }
@@ -12,6 +12,19 @@
 	text-shadow: 2px 2px white;
 	font-weight: bold;
 	font-size: 55px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	background-color: PaleVioletRed;
+	border: 10px double;
+}
+
+.contactform {
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%. -50%);
+	text-shadow: 2px 2px white;
+	font-weight: bold;
+	font-size: 20px;
 	font-family: "Lucida Console", "Courier New", monospace;
 	background-color: PaleVioletRed;
 	border: 10px double;
@@ -54,7 +67,7 @@ body {
 }
 
 champions {
-	font-size: 15px;
+	font-size: 50px;
 }
 
 
@@ -87,14 +100,25 @@ champions {
 }
 
 .Info {
-	float: right;
-	
+	position: relative;
+	font-size: 22px;
+	left: 400px;
+	top: 250px;
 }
+
+img {
+	max-width: 100%;
+}
+
+
+
 
 /*This is for ashe*/
 .photo-container1 {
 	position: relative;
 	width: 20%;
+
+	
 }
 
 .photo-container1:hover .image {
@@ -117,6 +141,8 @@ champions {
 .photo-container2 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container2:hover .image {
@@ -131,6 +157,8 @@ champions {
 .photo-container3 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container3:hover .image {
@@ -145,6 +173,8 @@ champions {
 .photo-container4 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container4:hover .image {
@@ -159,6 +189,8 @@ champions {
 .photo-container5 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container5:hover .image {
@@ -173,6 +205,8 @@ champions {
 .photo-container6 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container6:hover .image {
@@ -187,6 +221,8 @@ champions {
 .photo-container7 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container7:hover .image {
@@ -200,6 +236,8 @@ champions {
 .photo-container8 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container8:hover .image {
@@ -214,6 +252,8 @@ champions {
 .photo-container9 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container9:hover .image {
@@ -228,6 +268,8 @@ champions {
 .photo-container10 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container10:hover .image {
@@ -242,6 +284,8 @@ champions {
 .photo-container11 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container11:hover .image {
@@ -256,6 +300,8 @@ champions {
 .photo-container12 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container12:hover .image {
@@ -270,6 +316,8 @@ champions {
 .photo-container13 {
 	position: relative;
 	width: 20%;
+	display: flex;
+	align-items: center;
 }
 
 .photo-container13:hover .image {
