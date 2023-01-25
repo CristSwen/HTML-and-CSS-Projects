@@ -86,6 +86,11 @@ champions {
 	text-align: center;
 }
 
+.Info {
+	float: right;
+	
+}
+
 /*This is for ashe*/
 .photo-container1 {
 	position: relative;
