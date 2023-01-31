@@ -1,0 +1,8 @@
+input {
+    border: 4px outset;
+    width: 250px;
+    margin: 5%;
+    border-radius: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
