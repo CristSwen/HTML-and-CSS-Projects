@@ -1,0 +1,101 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: blur(5px);
+    border: 2px solid red;
+    border-radius: 20%;
+    z-index: -1;
+}
+
+Img:hover {
+    opacity: 0.5;
+}
+
+.Footer {
+    text-align: center;
+}
+
+.Table {
+    border: 3px outset blue;
+}
+
+td {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 10%;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: pink;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    left: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;  /* For centering text inside .photo-oerlay */
+    align-items: center;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: teal;
+}
+
+.navbar a {
+    color: yellow;
+}
+.navbar a:hover{
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    color: orange;
+    height: 200px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Hover_p:hover {
+    color: green;
+    transform: scale(1.1);
+}
+ 
+.video {
+    max-width: 100%;
+}
+
+video {
+    z-index: -1;
+}
+
+.vidoverlay {
+    position: absolute;
+    top: 200%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;  /* For centering text inside .photo-oerlay */
+    align-items: center;
+
+}
