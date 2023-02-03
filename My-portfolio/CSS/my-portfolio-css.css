@@ -140,18 +140,21 @@ footer {
 /*Screens 576px and smaller will display navbar links equally distributed */
 @media screen and (max-width: 576px) {
     .Navbar a{
-
+        width: 25%;
+        font-size: 12px;
     }
 }
 
 /*Navbar hover effects*/
 .Navbar a:hover {
-
+    background-color: #f4f4f4;
+    color: black;
+    font-weight: bold;
 }
 
 /*Navbar home button */
 .Navbar a.active {
-
+    background-color: darkgray;
 }
 
 /******* END OF NAVBAR STYLING *******/
