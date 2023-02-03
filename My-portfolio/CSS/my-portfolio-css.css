@@ -99,23 +99,42 @@ footer {
 
 /****** NAVBAR STYLING ********/
 .Navbar {
-
+    overflow: hidden; /*Makes sure anything that overflows is not shown */
+    background-color: black;
+    position: fixed; /*Makes the Navbar stay at top of screen as you scroll */
+    top: 0; /*Makes it so no space will be shown above navbar*/
+    width: 100%; /*Makes Navbar width of page */
+    z-index: 1;
+    -webkit-animation: moveNav 5s;
+    animation: moveNav 5s;
 }
 
 /*moveNav animation effect for moving the nav bar in from the left of the screen */
 @keyframes moveNav {
-
+    from {left: -100vw;} /*The navbar starts off screen to the left */
+    to {left: 0vw;} /*Moves navbar into place */
 }
 
 /*Navbar links*/
 
 .Navbar a {
-
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Avant Garde, Helvetica;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    -webkit-animation: moveNavText 5.75s;
+    animation: moveNavText 5.75s;
 }
 
 /* moveNav text animation effect for moving the navbar text from above the view to the navbar */
 @keyframes moveNavText {
-
+    from {top: -100vw;}
+    to {top: 0vw;}
 }
 
 /*Screens 576px and smaller will display navbar links equally distributed */
