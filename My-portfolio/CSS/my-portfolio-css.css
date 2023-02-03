@@ -1,0 +1,119 @@
+/*Body*/
+body {
+
+}
+
+/*Heading 1 elements*/
+h1 {
+
+}
+
+/*Heading 1 element hover effect*/
+h1:hover {
+
+}
+
+/*Styling for portfolio title text*/
+.colored-text {
+
+}
+
+/*Paragraph elements*/
+p {
+
+}
+
+/*Paragraph element hover effect*/
+p:hover {
+
+}
+
+/*Center class - this applies to all elements with the class "center" */
+.center {
+
+}
+
+/*Center class hover effect - this only affects the quote, github link, and footer*/
+.center:hover {
+
+}
+
+/*Anchor elements*/
+a {
+
+}
+
+/*Quotation elements*/
+q {
+
+}
+
+/*Image elements*/
+img {
+
+}
+
+/* Image hover effects */
+img:hover {
+
+}
+
+/*THe @media rule is used in media queries to apply different styles for different media/types of devices
+On screens 576px and smaller the images will be 100px tall and centered vertically in the column */
+@media screen and (max-width: 576px) {
+    img {
+        height: 100px;
+        margin-top: 150px;
+    }
+}
+
+/*Styling for footer element*/
+footer {
+
+}
+
+/****** END OF GENERAL STYLING ********/
+
+
+/****** NAVBAR STYLING ********/
+.navbar {
+
+}
+
+/*moveNav animation effect for moving the nav bar in from the left of the screen */
+@keyframes moveNav {
+
+}
+
+/*Navbar links*/
+
+.Navbar a {
+
+}
+
+/* moveNav text animation effect for moving the navbar text from above the view to the navbar */
+@keyframes moveNavText {
+
+}
+
+/*Screens 576px and smaller will display navbar links equally distributed */
+@media screen and (max-width: 576px) {
+    .navbar a{
+
+    }
+}
+
+/*Navbar hover effects*/
+.Navbar a:hover {
+
+}
+
+/*Navbar home button */
+.Navbar a.active {
+
+}
+
+/******* END OF NAVBAR STYLING *******/
+
+
+/******* VIDEO STYLING *******/
