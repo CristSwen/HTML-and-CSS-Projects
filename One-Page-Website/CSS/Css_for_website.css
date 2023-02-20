@@ -344,7 +344,7 @@ img {
 /*Creates for equal columns next to one another */
 .column {
 	float: left;
-	width: 25%;
+	width: 250;
 }
 
 /* The modal (background)*/
