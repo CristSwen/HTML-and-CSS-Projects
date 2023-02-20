@@ -7,6 +7,7 @@
 	<body>
 		<link rel="stylesheet" type="text/css" href="./CSS/Css_for_website.css">
 		<link rel="stylesheet" type="text/css" href="./CSS/one_page_website.css">
+		<script src="JS/main.js" defer></script>
 		<!-- NAV -->
 		<div>
 			<div>
@@ -30,6 +31,74 @@
 		</div>
 		<!--END HOME -->
 		
+		<!--Images used to open the lightbox-->
+			<div class="row">
+				<div class="column">
+					<img src="./Images/Thumnails/Ashe.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="./Images/Thumnails/Blitz.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="./Images/Thumnails/Galio.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="./Images/Thumnails/Gang.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+			</div>
+
+		<!--The modal/lightbox-->
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+
+					<div class="mySlides">
+						<div class="numbertext">1 / 4</div>
+						<img src="./Images/Thumnails/Ashe_Wide.jpg" style="width: 100%">  <!--TAKE ALL FOUR OF IMAGES AND MAKE WIDE-->
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">2 / 4</div>
+						<img src="./Images/Thumnails/Blitz_Wide.jpg" style="width: 100%">  <!--TAKE ALL FOUR OF IMAGES AND MAKE WIDE-->
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">3 / 4</div>
+						<img src="./Images/Thumnails/Galio_Wide.jpg" style="width: 100%">  <!--TAKE ALL FOUR OF IMAGES AND MAKE WIDE-->
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">4 / 4</div>
+						<img src="./Images/Thumnails/Gang_Wide.jpg" style="width: 100%">  <!--TAKE ALL FOUR OF IMAGES AND MAKE WIDE-->
+					</div>
+
+					<!--Next/previous controls-->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					<!--Caption text-->
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+
+					<!--Thumbnail image controls-->
+					<div class="column">
+						<img class="demo" src="./Images/Thumnails/Ashe.png" onclick="currentSlide(1)" alt="Nature">
+					</div>
+
+					<div class="column">
+						<img class="demo" src="./Images/Thumnails/Blitz.png" onclick="currentSlide(2)" alt="Nature">
+					</div>
+
+					<div class="column">
+						<img class="demo" src="./Images/Thumnails/Galio.png" onclick="currentSlide(3)" alt="Nature">
+					</div>
+
+					<div class="column">
+						<img class="demo" src="./Images/Thumnails/Gang.png" onclick="currentSlide(4)" alt="Nature">
+					</div>
+				</div>
+			</div>
 		<!--CHAMPIONS -->
 		<section>
 			<div id="champions" style="font-size: 40px">
