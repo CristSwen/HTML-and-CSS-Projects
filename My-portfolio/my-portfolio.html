@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" type="text/css" href="./CSS/my-portfolio-css.css">
+        <script src="JS/my-portfolio-js.js"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width" />
         <title>Cristina Swenson</title> 
@@ -100,14 +101,16 @@
                 <img src="images/black-cat.jpg" alt="Supposed Black cat image">
             </div>
             <!--Contact form, Right column-->
-            <div class="Column_1 Column_tall">
+            <div class="Column_1 Column_tall Column_contact">
                 <h1>Contact</h1>
                 <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="https://formspree.io/f/xvonzypk" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <form name="myForm" action="/action_page.php" action="https://formspree.io/f/xvonzypk" onsubmit="return validateForm()" method="post"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
                     <label>Name:</label>
                         <input type="text" placeholder="Please enter your name here">
                     <label>Email:</label>
                         <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Phone Number:</label>
+                        <input type="text" id="phone_Number" name="phone_Number" placeholder="Please enter your Phone Number here">
                     <label>Message:</label>
                         <input type="text" id="Message" name="Message" placeholder="Please write your message here">
                         <input type="submit" value="SUBMIT">
@@ -117,6 +120,13 @@
 
 
         <!--CONTACT SECTION ENDS HERE-->
+
+        <script>
+            document.body.classList.add('fade-out');
+            window.addEventListener('DOMContentLoaded', () => {
+                document.body.classList.remove('fade-out');
+            });
+        </script>
 
         <!--FOOTER SECTION STARTS HERE-->
         <footer>
