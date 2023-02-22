@@ -104,7 +104,7 @@
             <div class="Column_1 Column_tall Column_contact">
                 <h1>Contact</h1>
                 <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form name="myForm" action="/action_page.php" action="https://formspree.io/f/xvonzypk" onsubmit="return validateForm()" method="post"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <form action="https://formspree.io/f/xvonzypk" method="post"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
                     <label>Name:</label>
                         <input type="text" placeholder="Please enter your name here">
                     <label>Email:</label>
@@ -120,13 +120,34 @@
 
 
         <!--CONTACT SECTION ENDS HERE-->
-
+        
+        <!--Fade Effects-->
         <script>
             document.body.classList.add('fade-out');
             window.addEventListener('DOMContentLoaded', () => {
                 document.body.classList.remove('fade-out');
             });
         </script>
+        <!--End fade effects-->
+
+        <!--END POPUPFORM-->
+        <button class="open-button" onclick="openForm()">Open Form</button>
+
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Login</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+        <!--END POPUPFORM-->
 
         <!--FOOTER SECTION STARTS HERE-->
         <footer>
