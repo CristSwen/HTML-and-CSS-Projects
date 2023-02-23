@@ -389,6 +389,8 @@ footer {
     max-width: 49vw;
     padding: 1vw;
     background-color: white;
+    border-style: solid;
+    border-color: #F4A460;
 }
 
 .form-container input[type=text] {
